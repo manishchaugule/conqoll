@@ -1,0 +1,35 @@
+.application-header{
+    background-color:#D5D4D4;
+    padding: 10px 0 20px 0;
+    border-bottom: 5px solid #2e2828;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__navigation{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;;
+        font-size: 20px;
+        font-weight: 600;
+        
+        &__item {
+            cursor: pointer;
+             &:hover {
+                 text-decoration: underline;
+                 font-size: 22px;
+             }
+        }
+    }
+    &__logo {
+        width: 20%;
+        height: 100%;
+    }
+    @media screen and (max-width: 768px) {
+    }
+}
+.selected-navigation{
+    color : #4C4C4C
+}
