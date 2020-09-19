@@ -1,3 +1,41 @@
 table {
-    border: 1px solid black;
+    // border: 1px solid black;
+    
+    // border-collapse: collapse;
 }
+  th{
+      text-transform: uppercase;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .button{
+      // width: 120px;
+      text-transform: uppercase;
+      border: 1px solid #008CBA;
+      background-color: #008CBA;
+      border-radius: 15px;
+      padding: 5px 20px;
+      color: #ffffff;
+      cursor: pointer;
+      text-align: center;
+  }
+  .delete-color{
+      margin-left: 10px;
+      background-color: red;
+  }
+  .action-buttons{
+    display: flex;
+    justify-content: center;
+  }
+  .button-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }

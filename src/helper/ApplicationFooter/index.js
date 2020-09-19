@@ -22,7 +22,6 @@ function ApplicationFooter() {
             </div>
             </ApplicationPageLayout>
         </div>
-        
     );
 };
 
